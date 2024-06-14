@@ -1,0 +1,91 @@
+
+/*------------------Estilos base-----------------*/
+* {
+  outline: 1px solid rgba(145, 70, 70, 0); 
+}
+
+body { 
+  font-family: 'arial',  'sans-serif';
+}
+
+/*-----------contenedores-----------*/
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container--pad {
+  padding: 1em 1em;
+}
+
+.container--margin {
+  margin: 1em 1em;
+}
+
+.containerflex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;  
+}
+
+.container--flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.column {
+  width: 100%;
+}
+
+.column95 {
+  width: 95%;
+}
+
+.column90 {
+  width: 90%;
+}
+
+.column80 {
+  width: 80%;
+}
+
+/*----contenedores responsive------*/
+
+@media screen and (min-width:480px) {
+
+  .column50 {
+    width: 50%;
+  
+  }
+  
+  .column33 {
+    width: 33%;
+   
+  }
+  
+
+  .column--50 {
+    width: 49%;
+  }
+  
+  .column--50-25 {
+    width: 49%;
+  }
+  
+  .column--33 {
+    width: 32%;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
