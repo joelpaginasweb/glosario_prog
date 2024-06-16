@@ -22,10 +22,8 @@
     <div class="container header__container">
       <a href="#"><img class="header__logo" src="img/glos_prog_bco.png" alt=""></a>
       <span class="header__span" id="iconmenu" onclick="abrirmenu();">
-
         <img class="header__spanimg" src="img/barras-blancas.png" alt="img">
       </span>
-
       <nav class="header__nav" id="menu" onclick="closemenu();">
         <a class="header__a" href="#">INICIO</a>
         <a class="header__a" href="#">BUSCAR</a>
@@ -33,7 +31,6 @@
         <!-- <a class="header__a" href="#">INFORMACION</a> -->
         <a class="header__a" href="#footer">ACERCA DE</a>
       </nav>
-
     </div>
   </header>
 
@@ -68,11 +65,9 @@
   </aside>
 
   <nav class="nav" id="nav" onclick="closemenu();">
-
     <div class="titulo__aside titulo__aside--desk">
       <h2>GLOSARIO DE PROGRAMACION</h2>
     </div>
-  
     <search> <!---etiqueta search define elementos  de busqueda------>
       <form action="">
         <label for="buscar">Buscar:</label>
@@ -82,12 +77,10 @@
     </search>
   </nav>
 
-
   <main id="main" class="main" onclick="closemenu();">
     <div class="container ">
 
       <div class="titulo__main">
-
       </div>
 
       <section class="section__tabla">
@@ -553,7 +546,7 @@
               </td>
             </tr>
             <tr id="v">
-              <td >Variable</td>
+              <td>Variable</td>
               <td>
                 Dato que almacena informacion durante la ejecución de un programa, puede cambiar su valor, Una variable
                 representa una dirección o posición de memoria donde se guarda un dato.
@@ -573,7 +566,7 @@
 
       </div>
       <div class="column50">
-        
+
       </div>
 
       <p class="footer__p">- Desarrollado por: Arq JGS -</p>
