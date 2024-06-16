@@ -7,17 +7,16 @@
   <meta name="viewport"
     content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minumum-scale=1">
   <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="css/estilobase.css">
   <link rel="stylesheet" type="text/css" href="css/index.css">
   <link rel="stylesheet" type="text/css" href="css/index_grid.css">
   <link rel="stylesheet" type="text/css" href="css/index_mediaquery.css">
-  <link rel="stylesheet" type="text/css" href="css/estilobase.css">
   <meta property="og:image" content="">
 </head>
 
 <!----------------->
 
 <body class="body" id="body">
-
   <header id="header" class="header">
     <div class="container header__container">
       <a href="#"><img class="header__logo" src="img/glos_prog_bco.png" alt=""></a>
@@ -67,6 +66,7 @@
   <nav class="nav" id="nav" onclick="closemenu();">
     <div class="titulo__aside titulo__aside--desk">
       <h2>GLOSARIO DE PROGRAMACION</h2>
+      <h4> titulo de prueba</h4>
     </div>
     <search> <!---etiqueta search define elementos  de busqueda------>
       <form action="">
@@ -79,10 +79,8 @@
 
   <main id="main" class="main" onclick="closemenu();">
     <div class="container ">
-
       <div class="titulo__main">
       </div>
-
       <section class="section__tabla">
         <table class="titulotab">
           <thead class="titulotab__thead">
@@ -93,7 +91,6 @@
             </tr>
           </thead>
         </table>
-
         <table class="tabla">
           <thead>
             <tr>
@@ -101,7 +98,6 @@
               <th>DEFINICION</th>
             </tr>
           </thead>
-
           <tbody>
             <tr id="a">
               <td>Abstracción</td>
@@ -110,7 +106,6 @@
                 son relevantes para software en desarrollo.
               </td>
             </tr>
-
             <tr>
               <td>Algoritmo</td>
               <td>
@@ -118,7 +113,6 @@
                 problema.
               </td>
             </tr>
-
             <tr>
               <td>Anidacion</td>
               <td>
@@ -142,7 +136,6 @@
                 mismo (componente)
               </td>
             </tr>
-
             <tr id="b">
               <td>Bucle</td>
               <td>
@@ -556,28 +549,20 @@
         </table>
       </section>
     </div>
-
   </main>
+  
   <footer id="footer" class="footer" onclick="closemenu();">
-
     <div class="containerflex footer__container">
-
       <div class="column50">
-
       </div>
       <div class="column50">
-
       </div>
-
       <p class="footer__p">- Desarrollado por: Arq JGS -</p>
       <p class="footer__p">
         <a href="https://www.arqjgs.com/" class="footer__a">- arqjgs.com -</a>
       </p>
       <p class="footer__p">- Sitio Web en proceso de construccion -</p>
-
-
     </div>
-
   </footer>
 
   <script src="js/openmenu.js"></script>

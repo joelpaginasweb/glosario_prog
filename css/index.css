@@ -7,10 +7,10 @@ html{
 
 /*-----------------header----------------*/
 .header {
-  /* width: 100%; */
-  /* position: fixed; */
-  /* z-index: 10;  */
-  /* background: rgb(26, 50, 60); */
+  width: 100%;
+  position: fixed;
+  z-index: 10; 
+  background: rgb(19, 35, 43); /* mismo color que footer*/
 }
 
 .header__container {
@@ -70,7 +70,6 @@ html{
 
 
 /*---------- colores generales -------------*/
-
 .nav,  .main {
  
   background: #ececec;
@@ -177,10 +176,9 @@ table {
   border-collapse: collapse;
 }
 
-
-
 thead {
-  background: rgb(26, 50, 60);
+  background: rgb(19, 35, 43); /* mismo color que footer*/
+  /* background: rgb(26, 50, 60);  */
   color: white;
   border: solid 1px rgb(175, 175, 175);
 }
@@ -202,10 +200,7 @@ tbody tr {
 
 tbody tr:hover {  
   background: rgb(255, 255, 255);
-
 }
-
-
 
 /*------------footer--------------------------*/
 
